@@ -37,7 +37,7 @@ const App = () => {
                 <Routes>
                     <Route path='/' element={<Home/>}/>
                     <Route path='/first' element={<First msg='리엑트의 세계에 환영합니다'/>}/>
-                    <Route path='/second' element={<Second msg='리엑트 즐기기'/>}/>
+                    <Route path='/second' element={<Second msg='리엑트 즐기자'/>}/>
                     <Route path='/third' element={<Third datas={data}/>} />
                     <Route path='/fourth/:idx/:name' element={<Fourth datas={data}/>} />
                 </Routes>
